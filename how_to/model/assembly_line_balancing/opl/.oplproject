@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+    	
+    <version>1.0</version>
+    	
+    <configs>
+        		
+        <config default="true" name="SALBP1" category="opl">
+            			
+            <ref name="salbp1.mod" type="model">
+			</ref>
+            			
+            <ref name="data.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="SALBP1W" category="opl">
+            			
+            <ref name="salbp1W.mod" type="model">
+			</ref>
+            			
+            <ref name="data.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="SALBP2" category="opl">
+            			
+            <ref name="data.dat" type="data">
+			</ref>
+            			
+            <ref name="salbp2.mod" type="model">
+			</ref>
+            		
+        </config>
+        	
+    </configs>
+    	
+
+</project>

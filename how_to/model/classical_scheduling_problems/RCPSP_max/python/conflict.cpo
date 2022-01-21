@@ -1,0 +1,23 @@
+Conflict refiner result (TerminatedNormally):
+Member constraints:
+   startBeforeStart(T0, T3, 2)
+   startBeforeStart(T5, T0, -2)
+   startBeforeStart(T3, T5, 1)
+Conflict in CPO format:
+   // --------------------------------------------------------------------------
+   // IBM ILOG CP Optimizer conflict submodel
+   // --------------------------------------------------------------------------
+   
+   // ------ Interval-related variables: ---------------------------------------
+   
+   #line 29 "rcpsp_max.py"
+   T0 = intervalVar(size=2);
+   T3 = intervalVar(size=1);
+   T5 = intervalVar(size=2);
+   
+   // ------ Other conflict members (constraints): -----------------------------
+   
+   _CTR_2: startBeforeStart(T0, T3, 2);
+   _CTR_5: startBeforeStart(T3, T5, 1);
+   _CTR_6: startBeforeStart(T5, T0, -2);
+   
